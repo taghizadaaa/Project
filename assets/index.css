@@ -13,7 +13,7 @@ body {
 }
 
 .card-head {
-    font-size: 2.5em;
+    font-size: 55px;
     text-align: left;
     margin-bottom: 40px;
 }
@@ -90,6 +90,7 @@ body {
         margin-left: 21px ;
         margin-bottom: 73px;
         text-align: center;
+        font-size: 32px;
     }
 
     .card-h2 {
@@ -122,5 +123,39 @@ body {
         height: auto;
     } 
     
+    .card-head {
+        font-size: 26px;
+    }
     
+}
+
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+    
+    .cards {
+        grid-template-columns: repeat(4, 1fr); 
+        column-gap: 50px; 
+        row-gap: 50px;
+        width: 100%;
+    }
+
+    .card {
+        max-width: 550px; 
+        height: 24em; 
+    }
+
+    .card-h2 {
+        font-size: 2.4em; 
+    }
+
+    .card-para {
+        font-size: 1.8em; 
+    }
+
+    .card img {
+        height: 16em;
+    }
 }
