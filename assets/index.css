@@ -121,6 +121,17 @@ nav .date {
     margin-bottom: 53px;
 }
 
+.card-head {
+    font-size: 55px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
 .about_course .texts p {
     font-size: 24px;
     font-family: Roboto, sans-serif;
@@ -470,6 +481,89 @@ footer {
   .cards {
     display: flex;
     flex-direction: column;
+    margin: 10px;
+}
+    
+@media screen and (min-width: 375px) and (max-width: 834px){
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 21px;
+        row-gap: 26px;
+    }
+
+    .card-head {
+        margin-left: 21px ;
+        margin-bottom: 73px;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .card-h2 {
+        font-size: 17px;
+    }
+
+    .card-para {
+        font-size: 14px;
+    }
+
+    .card {
+        height: 15em; 
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-head {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .card {
+        height: auto;
+    } 
+    
+    .card-head {
+        font-size: 26px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+    
+    .cards {
+        grid-template-columns: repeat(4, 1fr); 
+        column-gap: 50px; 
+        row-gap: 50px;
+        width: 100%;
+    }
+
+    .card {
+        max-width: 550px; 
+        height: 24em; 
+    }
+
+    .card-h2 {
+        font-size: 2.4em; 
+    }
+
+    .card-para {
+        font-size: 1.8em; 
+    }
+
+    .card img {
+        height: 16em;
+    }
   }
 
   .card-head {
