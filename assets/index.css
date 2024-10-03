@@ -10,14 +10,17 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0 auto;
     background-color: #f4f4f9;
-    padding: 20px;
 }
 
 .card-head {
     font-size: 2.5em;
     text-align: left;
     margin-bottom: 40px;
-    margin-left: 300px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
 }
 
 .card-box {
@@ -67,29 +70,18 @@ body {
     font-family: Roboto, serif;
     font-size: 1em;
     color: black;
-    font-weight: 650;
-
 }
 
-span {
+.card_span {
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
-
-/* @media screen and (max-width: 834px) {
-    .cards {
-        display: flex;
-        flex-direction: column;
-        width: fit-content;
-    }
-} */
     
 @media screen and (min-width: 375px) and (max-width: 834px){
     .cards {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        /* max-width: 231px; */
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 21px;
         row-gap: 26px;
     }
@@ -97,7 +89,7 @@ span {
     .card-head {
         margin-left: 21px ;
         margin-bottom: 73px;
-        font-size: 32px;
+        text-align: center;
     }
 
     .card-h2 {
@@ -109,7 +101,7 @@ span {
     }
 
     .card {
-        height: 190px; 
+        height: 15em; 
         padding-bottom: 16px;
     }
 }
@@ -123,6 +115,7 @@ span {
     .card-head {
         margin: 0 auto;
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .card {
