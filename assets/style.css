@@ -7,26 +7,19 @@
     text-decoration: none;
     font-family: "Roboto", sans-serif;
 }
-
-body {
-    font-family: Roboto Slab, sans-serif;
-    padding: 0 32px;
-    box-sizing: border-box;
+.container {
+    width: 85%;
+    margin: 0 auto;
 }
-
-main {
-    padding-bottom: 157px;
-    margin: auto;
-    max-width: 1192px;
-}
-
 .top-row {
     display: flex;
     align-items: flex-end;
     margin: 91px 0;
     justify-content: space-between;
 }
-
+.top {
+    display: flex;
+}
 .top-row img {
     max-width: 28%;
     margin: 0 0 5px 40px;
