@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 :root {
-    --above-footer: #9DC9C8;
-    --review-card: #EFEFEF;
+  --above-footer: #9dc9c8;
+  --review-card: #efefef;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    font-family: Roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
 }
 
 body {
@@ -18,8 +18,8 @@ body {
 }
 
 .container {
-    width: 85%;
-    margin: 0 auto;
+  width: 85%;
+  margin: 0 auto;
 }
 
 main section {
@@ -46,96 +46,169 @@ nav {
 }
 
 nav .date {
-    margin-right: 25px;
-    font-size: 20px;
+  margin-right: 25px;
+  font-size: 20px;
 }
 
 .kino {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .kino.left {
-    width: 50%;
+  width: 50%;
 }
 
 .kino .left h1 {
-    width: 100%;
-    font-size: 60px;
-    font-family: "Roboto Slab", serif;
-    line-height: 81.11px;
-    margin-bottom: 20px;
+  width: 100%;
+  font-size: 60px;
+  font-family: "Roboto Slab", serif;
+  line-height: 81.11px;
+  margin-bottom: 20px;
 }
 
 .kino.left p {
-    font-size: 20px;
-    width: 414px;
-    height: 62px;
-    line-height: 30px;
+  font-size: 20px;
+  width: 414px;
+  height: 62px;
+  line-height: 30px;
 }
 
 .kino .right {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .kino .right img {
-    width: 304px;
-    height: 356px;
+  width: 304px;
+  height: 356px;
 }
 
 .bottom {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .bottom .items {
-    border: 1px solid #1d4681;
-    border-radius: 4px;
-    background-color: #1d4681;
-    color: #fff;
-    padding: 20px;
-    width: 450px;
+  border: 1px solid #1d4681;
+  border-radius: 4px;
+  background-color: #1d4681;
+  color: #fff;
+  padding: 20px;
+  width: 450px;
 }
 
 .bottom p {
-    font-family: "Roboto Slab", serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32.5px;
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32.5px;
 }
 
 .bottom span {
-    width: 100%;
-    display: block;
-    text-align: end;
-    margin-top: 10px;
-    font-family: "Roboto", sans-serif;
-    line-height: 26px;
+  width: 100%;
+  display: block;
+  text-align: end;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  line-height: 26px;
+}
+.about_course .top-row{
+    display: flex;
+    align-items: flex-end;
+    margin: 91px 0;
+    justify-content: space-between;
+}
+.about_course .top {
+    display: flex;
+}
+.about_course img {
+    max-width: 314px;
+    height: 315px;
+    margin: 90px 0 5px 40px;
+}
+.about_course .texts {
+    gap: 18px;
+    max-width: 55%;
+}
+
+.about_course .texts h1 {
+    font-size: 55px;
+    margin-bottom: 53px;
 }
 
 .card-head {
-    font-size: 2.5em;
+    font-size: 55px;
     text-align: left;
     margin-bottom: 40px;
 }
 
-.card-box {
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.about_course .texts p {
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+}
+
+.about_course .bottom-row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    gap: 50px;
+    font-family: Roboto, sans-serif;
+}
+
+.about_course .bottom-row img {
+    max-width: 232px;
+    height: 203px;
+}
+
+.about_course .short-texts {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.about_course .short-text {
+    width: 150px;
+}
+
+.about_course .short-text h3 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.about_course .short-text p {
+    font-size: 18px;
+}
+
+.card-head {
+  font-size: 2.5em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 41px;
-    column-gap: 37px;
-    width: 90em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 41px;
+  column-gap: 37px;
+  width: 90em;
 }
 
 .cards .card {
@@ -162,115 +235,107 @@ nav .date {
 }
 
 .card-h2 {
-    font-size: 1.6em;
-    margin-bottom: 10px;
-    margin-top: -20px;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  margin-top: -20px;
 }
 
 .card-para {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4em;
 }
 
 .card_span {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
-
-.list_items {
-    width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 
 .list_items h1 {
-    font-size: 32px;
-    margin-bottom: 30px;
+  font-size: 55px;
+  margin-bottom: 30px;
 }
-
 .list_items ul li {
-    font-family: "Roboto", sans-serif;
-    list-style: disc;
-    font-size: 14px;
-    line-height: 21px;
-    margin-left: 15px;
+  font-family: "Roboto", sans-serif;
+  list-style: disc;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 15px;
+  font-weight: 400;
 }
 
 /* REVIEW-CARD */
 
 .review-card {
-    background-color: var(--review-card);
+  background-color: var(--review-card);
 }
 
 .review-card-content {
-    padding: 91px 120px 111px;
-    max-width: 1440px;
-    margin: 0 auto;
-    box-sizing: border-box;
+  padding: 91px 120px 111px;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .review-card-content h1 {
-    font-size: 55px;
-    margin-bottom: 55px;
+  font-size: 55px;
+  margin-bottom: 55px;
 }
 
 .review-card-content p {
-    font-size: 20px;
-    margin-bottom: 33px;
+  font-size: 20px;
+  margin-bottom: 33px;
 }
 
 .review-card-content .card {
-    background-color: white;
-    max-width: 790px;
-    box-sizing: border-box;
-    padding: 40px 45px 35px;
-    border-radius: 30px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  background-color: white;
+  max-width: 790px;
+  box-sizing: border-box;
+  padding: 40px 45px 35px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
 }
 
 .review-card-content .reviewer {
-    display: flex;
-    gap: 50px;
-    align-items: center;
+  display: flex;
+  gap: 50px;
+  align-items: center;
 }
 
 .review-card-content .info h3 {
-    font-size: 30px;
-    margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .review-card-content .info img {
-    width: 32px;
+  width: 32px;
 }
-
-
-
 
 /* ABOVE-FOOTER */
 
 .above-footer {
-    width: 100%;
-    background-color: var(--above-footer);
+  background-color: var(--above-footer);
 }
 
 .above-footer-content {
-    padding: 180px 0 192px 122px;
-    max-width: 1440px;
-    box-sizing: border-box;
-    margin: 0 auto;
+  padding: 180px 0 192px 122px;
+  max-width: 1440px;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .above-footer-content h1 {
-    margin-bottom: 59px;
-    font-family: Roboto Slab;
-    font-size: 55px;
+  margin-bottom: 59px;
+  font-family: Roboto Slab;
+  font-size: 55px;
 }
 
 .above-footer-content p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .above-footer-content span {
-    font-size: 80px;
+  font-size: 80px;
 }
 
 .above-footer-content .short-texts {
@@ -280,10 +345,10 @@ nav .date {
 }
 
 .above-footer-content .short-text {
-    gap: 12px;
-    display: flex;
-    flex-direction: column;
-    max-width: 294px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  max-width: 294px;
 }
 
 .above-footer-content .short-text h3 {
@@ -292,11 +357,8 @@ nav .date {
 }
 
 .above-footer-content .short-text p {
-    font-size: 18px;
+  font-size: 18px;
 }
-
-
-
 
 /* FOOTER */
 
@@ -316,397 +378,519 @@ footer {
 }
 
 .footer-content .top-row {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-content .lt-content {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .footer-content .lt-content .logo {
-    max-width: 115px;
+  max-width: 115px;
 }
 
 .footer-content .lt-content .social-icons {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 
 .footer-content .rt-content {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-self: flex-end;
-    gap: 14px;
-    margin-left: 32px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  gap: 14px;
+  margin-left: 32px;
 }
 
 .footer-content .rt-content div {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  cursor: pointer;
 }
 
 .footer-content .rt-content span {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .footer-content .lb-content {
+
     font-size: 18px;
     color: white;
     margin-top: 145px;
 }
 
+@media (max-width: 375px) {
+  nav .date {
+    font-size: 10px;
+  }
+  .kino {
+    display: block;
+  }
+  .kino .left {
+    width: 100%;
+  }
+  .kino .left h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .kino .left p {
+    margin-bottom: 20px;
+  }
+  .kino .right {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .kino .right img {
+    width: 142px;
+    height: 175px;
+  }
+  .bottom {
+    width: 226px;
+    margin-top: 20px;
+  }
+  .bottom p {
+    font-size: 11px;
+    line-height: 14.3px;
+  }
+  .bottom span {
+    font-size: 10px;
+  }
+  .about_course .top-row {
+    display: block;
+}
 
+.about_course .texts {
+    max-width: 100%;
+}
+.about_course .top-row img {
+    justify-self: center;
+    margin: 32px 0 0;
+    width: 170px;
+    height: 160px;
+    position: relative;
+    left: 15%;
+}
+.about_course .top {
+  display: block;
+}
+.about_course .short-texts {
+    flex-wrap: wrap;
+}
+.about_course .short-text {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.about_course .texts h1 {
+    font-size: 25px;
+    margin-bottom: 24px;
+}
 
-@media (max-width:375px) {
-    nav .date {
-        font-size: 12px;
-    }
+.about_course .texts p {
+    font-size: 12px;
+}
 
-    .kino {
-        display: block;
-    }
+.about_course .short-texts h3 {
+    font-size: 12px;
+}
 
-    .kino .left {
-        width: 100%;
-    }
+.about_course .short-texts p {
+    font-size: 10px;
+}
+.about_course .bottom-row img {
+  display: none;
+}
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .kino .left h1 {
-        font-size: 40px;
-        line-height: 40px;
-    }
+  .card-head {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 
-    .kino .left p {
-        margin-bottom: 20px;
-    }
+  .card {
+    height: auto;
+  }
 
-    .kino .right {
-        width: 100%;
-        justify-content: flex-end;
-    }
+/* REVIEW-CARD MOBILE*/
 
-    .kino .right img {
-        width: 142px;
-        height: 175px;
-    }
+.review-card-content {
+  padding: 42px 36px 53px;
+}
 
-    .bottom {
-        width: 300px;
-        margin-top: 20px;
-    }
+.review-card-content h1 {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
 
-    .bottom p,
-    .bottom span {
-        font-size: 14px;
-        line-height: 20px;
-    }
+.review-card-content .card {
+  border-radius: 14px;
+  max-width: 308px;
+  padding: 18px 21px 13px;
+}
 
-    .cards {
-        display: flex;
-        flex-direction: column;
-    }
+.review-card-content p {
+  font-size: 10px;
+  margin-bottom: 13px;
+}
 
-    .card-head {
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
+.review-card-content .reviewer {
+  gap: 20px;
+}
 
-    .card {
-        height: auto;
-    }
+  .review-card-content .avatar {
+  width: 30%;
+}
+  
+.review-card-content .info h3 {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
 
-    /* REVIEW-CARD MONILE*/
+.review-card-content .info img {
+  width: 15px;
+}
 
-    .review-card-content {
-        padding: 42px 36px 53px;
-    }
+/* ABOVE-FOOTER MOBILE*/
 
-    .review-card-content h1 {
-        font-size: 26px;
-        margin-bottom: 25px;
-    }
+.above-footer-content {
+  padding: 62px 35px 72px;
+}
 
-    .review-card-content .card {
-        border-radius: 14px;
-        max-width: 308px;
-        padding: 18px 21px 13px;
-    }
+.above-footer-content h1 {
+  font-size: 26px;
+}
 
-    .review-card-content p {
-        font-size: 10px;
-        margin-bottom: 13px;
-    }
+.above-footer-content p {
+  font-size: 12px;
+}
 
-    .review-card-content .avatar {
-        width: 70px;
-    }
-
-    .review-card-content .reviewer {
-        gap: 20px;
-    }
-
-    .review-card-content .info h3 {
-        font-size: 14px;
-        margin-bottom: 14px;
-    }
-
-    .review-card-content .info img {
-        width: 15px;
-    }
-
-    .review-card-content .avatar {
-        width: 30%;
-    }
-
-
-
-
-    /* ABOVE-FOOTER MOBILE*/
-
-    .above-footer-content {
-        padding: 62px 35px 72px;
-    }
-
-    .above-footer-content h1 {
-        font-size: 26px;
-    }
-
-    .above-footer-content p {
-        font-size: 12px;
-    }
-
-    .above-footer-content span {
-        font-size: 37px;
-    }
+.above-footer-content span {
+  font-size: 37px;
+}
 
     .above-footer-content .short-texts {
         margin-top: 35px;
         gap: 30px;
     }
 
-    .above-footer-content .short-texts h3 {
-        font-size: 12px;
-    }
+.above-footer-content .short-texts h3 {
+  font-size: 12px;
+}
 
-    .above-footer-content .short-texts p {
-        font-size: 10px;
-    }
+.above-footer-content .short-texts p {
+  font-size: 10px;
+}
 
-    .above-footer-content .short-text {
-        max-width: 138px;
-    }
+.above-footer-content .short-text {
+  max-width: 138px;
+}
 
+/* FOOTER MOBILE*/
 
+footer {
+  height: auto;
+}
 
+.footer-content {
+  padding: 23px 38px 18px;
+  justify-content: flex-start;
+}
 
-    /* FOOTER MOBILE*/
+.footer-content .top-row {
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
-    footer {
-        height: auto;
-    }
+.footer-content .lt-content .social-icons {
+  gap: 8px;
+}  
+  
+.footer-content .lt-content .social-icons img {
+  width: 15px;
+}
 
-    .footer-content {
-        padding: 23px 38px 18px;
-        justify-content: flex-start;
-    }
+.footer-content .lt-content {
+  gap: 14px;
+}
 
-    .footer-content .top-row {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
+.footer-content .lt-content .logo {
+  max-width: 54px;
+}
 
-    .footer-content .lt-content {
-        gap: 14px;
-    }
-
-    .footer-content .lt-content .logo {
-        max-width: 54px;
-    }
-
-    .footer-content .lt-content .social-icons {
-        gap: 8px;
-    }
-
-    .footer-content .lt-content .social-icons img {
-        width: 15px;
-    }
-
-    .footer-content .rt-content {
-        gap: 10px;
-        margin: 48px 0;
-    }
+.footer-content .rt-content {
+  gap: 10px;
+  margin: 48px 0;
+} 
 
     .footer-content .rt-content img {
         width: 13px;
-    }
+    }  
+  
+.footer-content .rt-content span {
+  font-size: 12px;
+}
 
-    .footer-content .rt-content span {
-        font-size: 12px;
-    }
-
-    .footer-content .lb-content {
-        font-size: 10px;
-        margin-top: 0;
-    }
+.footer-content .lb-content {
+  font-size: 10px;
+  margin-top: 0;
+ }
 }
 
 @media screen and (min-width: 375px) and (max-width: 834px) {
+  nav .date {
+    font-size: 12px;
+  }
+  .kino .left h1 {
+    font-size: 46px;
+    line-height: 46px;
+  }
+  .kino .left p {
+    font-size: 12px;
+  }
+  .bottom_items {
+    width: 200px;
+  }
+  .bottom p {
+    font-size: 14px;
+  }
+  .bottom span {
+    font-size: 12px;
+  }
 
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        /* max-width: 231px; */
-        column-gap: 21px;
-        row-gap: 26px;
-    }
+  .kino .right img {
+    width: 176px;
+    height: 206px;
+  }
+  
+/*    .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 21px;
+    row-gap: 26px;
+  }
+  .card-head {
+    margin-left: 21px;
+    margin-bottom: 73px;
+    font-size: 32px;
+  }
+  
+  .card-h2 {
+    font-size: 17px;
+  }
+  
+  .card-para {
+    font-size: 14px;
+  }
+  
+  .card {
+    height: auto;
+  }
+  
+  .list_items h1 {
+    font-size: 26px;
+  }
+  .list_items ul li {
+    font-size: 12px;
+    line-height: 18px;
+  } */
+  
+  .about_course .texts h1 {
+    font-size: 32px;
+    margin-bottom: 29px;
+}
+  
+   .about_course .short-text h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+  
+   .about_course .texts p {
+    font-size: 14px;
+}
+  
+   .about_course .short-text p {
+    font-size: 11px;
+}
+  
+.about_course .top-row img {
+    width: 182px;
+    height: 182px;
+}
 
-    .card-head {
-        margin-left: 21px;
-        margin-bottom: 73px;
-        font-size: 32px;
-    }
+.about_course .top-row {
+    margin: 56px 0;
+}
 
-    .card-h2 {
-        font-size: 17px;
-    }
+.about_course .bottom-row {
+    justify-content: flex-start;
+}
 
-    .card-para {
-        font-size: 14px;
-    }
+.about_course .bottom-row img {
+    width: 134px;
+    height: 118px;
+    margin: 0;
+}
 
-    .card-head {
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
+.about_course .short-texts {
+    max-width: 370px;
+    width: 100%;
+    flex-wrap: wrap;
+}
 
-    .card {
-        height: auto;
-    }
+.about_course .short-text {
+    width: 87px;
+}
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* max-width: 231px; */
+    column-gap: 21px;
+    row-gap: 26px;
+  }
 
-    /* REVIEW-CARD TABLET*/
+  .card-h2 {
+    font-size: 17px;
+  }
 
-    .review-card-content {
-        padding: 53px 71px 64px;
-    }
+  .card-para {
+    font-size: 14px;
+  }
+  .card-head {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 
-    .review-card-content h1 {
-        font-size: 32px;
-        margin-bottom: 36px;
-    }
+  .card {
+    height: auto;
+  }
+  .list_items h1 {
+    font-size: 32px;
+  }
+  .list_items ul li {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  /* REVIEW-CARD TABLET*/
 
-    .review-card-content .card {
-        border-radius: 18px;
-        max-width: 460px;
-        padding: 23px 26px 20px;
-    }
+  .review-card-content {
+    padding: 53px 71px 64px;
+  }
 
-    .review-card-content p {
-        font-size: 12px;
-        margin-bottom: 15px;
-    }
+  .review-card-content h1 {
+    font-size: 32px;
+    margin-bottom: 36px;
+  }
 
-    .review-card-content .avatar {
-        width: 90px;
-    }
+  .review-card-content .card {
+    border-radius: 18px;
+    max-width: 460px;
+    padding: 23px 26px 20px;
+  }
 
-    .review-card-content .reviewer {
-        gap: 25px;
-    }
+  .review-card-content p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
 
-    .review-card-content .info h3 {
-        font-size: 17px;
-        margin-bottom: 16px;
-    }
+  .review-card-content .avatar {
+    width: 90px;
+  }
 
-    .review-card-content .info img {
-        width: 18px;
-    }
+  .review-card-content .reviewer {
+    gap: 25px;
+  }
 
+  .review-card-content .info h3 {
+    font-size: 17px;
+    margin-bottom: 16px;
+  }
 
+  .review-card-content .info img {
+    width: 18px;
+  }
 
+  /* ABOVE-FOOTER TABLET*/
 
-    /* ABOVE-FOOTER TABLET*/
+  .above-footer-content {
+    padding: 103px 70px 116px;
+  }
 
-    .above-footer-content {
-        padding: 103px 70px 116px;
-    }
+  .above-footer-content h1 {
+    margin-bottom: 31px;
+    font-size: 32px;
+  }
 
-    .above-footer-content h1 {
-        margin-bottom: 31px;
-        font-size: 32px;
-    }
+  .above-footer-content p {
+    font-size: 14px;
+  }
 
-    .above-footer-content p {
-        font-size: 14px;
-    }
-
-    .above-footer-content span {
-        font-size: 46px;
-    }
-
-    .above-footer-content .short-texts {
-        gap: 40px;
-        margin-top: 35px;
-    }
-
-    .above-footer-content .short-text {
-        max-width: 170px;
-    }
-
-    .above-footer-content .short-text h3 {
-        margin-top: 0;
-        font-size: 14px;
-    }
-
-    .above-footer-content .short-text p {
-        font-size: 10px;
-    }
-
-
+  .above-footer-content span {
+    font-size: 46px;
+  }
 
 
-    /* FOOTER TABLET*/
+  .above-footer-content .short-texts {
+    gap: 40px;
+    margin-top: 35px;
+  }
 
-    .footer-content {
-        padding: 29px 100px 25px 71px;
-    }
+  .above-footer-content .short-text {
+    max-width: 170px;
+  }
 
-    .footer-content .lt-content {
-        gap: 18px;
+  .above-footer-content .short-text h3 {
+    margin-top: 0;
+    font-size: 14px;
+  }
 
-    }
+  .above-footer-content .short-text p {
+    font-size: 10px;
+  }
 
-    .footer-content .lt-content .logo {
-        width: 66px;
-    }
+  /* FOOTER TABLET*/
+  
+  .footer-content {
+    padding: 29px 100px 25px 71px;
+  }
 
-    .footer-content .lt-content .social-icons {
-        gap: 10px;
-    }
+  .footer-content .lt-content {
+    gap: 18px;
+  }
 
-    .footer-content .lt-content .social-icons img {
-        max-width: 20px;
-    }
+  .footer-content .lt-content .logo {
+    width: 66px;
+  }
 
-    .footer-content .rt-content div {
-        gap: 13px;
-    }
+  .footer-content .lt-content .social-icons {
+    gap: 10px;
+  }
 
-    .footer-content .rt-content span {
-        font-size: 14px;
-    }
+  .footer-content .lt-content .social-icons img {
+    max-width: 20px;
+  }
 
-    .footer-content .rt-content img {
-        width: 15px;
-    }
-
-    .footer-content .lb-content {
+  .footer-content .lb-content {
         font-size: 10px;
         margin-top: 85px;
-    }
+  }
+  .footer-content .rt-content div {
+    gap: 13px;
+  }
+
+  .footer-content .rt-content span {
+    font-size: 14px;
+  }
+
+  .footer-content .rt-content img {
+    width: 15px;
+  }
 }
