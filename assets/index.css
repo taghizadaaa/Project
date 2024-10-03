@@ -97,6 +97,69 @@ nav .date {
   font-family: "Roboto", sans-serif;
   line-height: 26px;
 }
+.about_course .top-row{
+    display: flex;
+    align-items: flex-end;
+    margin: 91px 0;
+    justify-content: space-between;
+}
+.about_course .top {
+    display: flex;
+}
+.about_course img {
+    max-width: 314px;
+    height: 315px;
+    margin: 90px 0 5px 40px;
+}
+.about_course .texts {
+    gap: 18px;
+    max-width: 55%;
+}
+
+.about_course .texts h1 {
+    font-size: 55px;
+    margin-bottom: 53px;
+}
+
+.about_course .texts p {
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+}
+
+.about_course .bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    gap: 50px;
+    font-family: Roboto, sans-serif;
+}
+
+.about_course .bottom-row img {
+    max-width: 232px;
+    height: 203px;
+}
+
+.about_course .short-texts {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.about_course .short-text {
+    width: 150px;
+}
+
+.about_course .short-text h3 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.about_course .short-text p {
+    font-size: 18px;
+}
+
 .card-head {
   font-size: 2.5em;
   text-align: left;
@@ -326,7 +389,7 @@ footer {
 
 @media (max-width: 375px) {
   nav .date {
-    font-size: 12px;
+    font-size: 10px;
   }
   .kino {
     display: block;
@@ -360,6 +423,50 @@ footer {
   .bottom span {
     font-size: 10px;
   }
+  .about_course .top-row {
+    display: block;
+}
+
+.about_course .texts {
+    max-width: 100%;
+}
+.about_course .top-row img {
+    justify-self: center;
+    margin: 32px 0 0;
+    width: 170px;
+    height: 160px;
+    position: relative;
+    left: 15%;
+}
+.about_course .top {
+  display: block;
+}
+.about_course .short-texts {
+    flex-wrap: wrap;
+}
+.about_course .short-text {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.about_course .texts h1 {
+    font-size: 25px;
+    margin-bottom: 24px;
+}
+
+.about_course .texts p {
+    font-size: 12px;
+}
+
+.about_course .short-texts h3 {
+    font-size: 12px;
+}
+
+.about_course .short-texts p {
+    font-size: 10px;
+}
+.about_course .bottom-row img {
+  display: none;
+}
   .cards {
     display: flex;
     flex-direction: column;
@@ -376,8 +483,9 @@ footer {
   .list_items h1 {
     font-size: 26px;
   }
-  .list_items li {
+  .list_items ul li {
     font-size: 12px;
+    line-height: 18px;
   }
 }
 /* REVIEW-CARD MONILE*/
@@ -498,6 +606,9 @@ footer {
   font-size: 12px;
 }
 @media screen and (min-width: 375px) and (max-width: 834px) {
+  nav .date {
+    font-size: 12px;
+  }
   .kino .left h1 {
     font-size: 46px;
     line-height: 46px;
@@ -518,6 +629,52 @@ footer {
     width: 176px;
     height: 206px;
   }
+  .about_course .texts h1 {
+    font-size: 32px;
+    margin-bottom: 29px;
+}
+
+.about_course .short-text h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.about_course .texts p {
+    font-size: 14px;
+}
+
+.about_course .short-text p {
+    font-size: 11px;
+}
+
+.about_course .top-row img {
+    width: 182px;
+    height: 182px;
+}
+
+.about_course .top-row {
+    margin: 56px 0;
+}
+
+.about_course .bottom-row {
+    justify-content: flex-start;
+}
+
+.about_course .bottom-row img {
+    width: 134px;
+    height: 118px;
+    margin: 0;
+}
+
+.about_course .short-texts {
+    max-width: 370px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.about_course .short-text {
+    width: 87px;
+}
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -550,8 +707,9 @@ footer {
   .list_items h1 {
     font-size: 32px;
   }
-  .list_items li {
+  .list_items ul li {
     font-size: 14px;
+    line-height: 21px;
   }
   /* REVIEW-CARD TABLET*/
 
