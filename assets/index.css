@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
@@ -6,47 +5,61 @@
     --above-footer: #9DC9C8;
     --review-card: #EFEFEF;
 }
+
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
     font-family: Roboto, sans-serif;
 }
+
+body {
+    width: 100%;
+}
+
 .container {
     width: 85%;
     margin: 0 auto;
 }
-section {
+
+main section {
     padding-bottom: 80px;
 }
+
 header {
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 21px;
-  padding-bottom: 30px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 21px;
+    padding-bottom: 30px;
 }
+
 header img {
-  width: 112px;
-  height: 66px;
-  padding-bottom: 70px;
+    width: 112px;
+    height: 66px;
+    padding-bottom: 70px;
 }
+
 nav {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
 }
+
 nav .date {
     margin-right: 25px;
     font-size: 20px;
 }
+
 .kino {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 .kino.left {
     width: 50%;
 }
+
 .kino .left h1 {
     width: 100%;
     font-size: 60px;
@@ -54,27 +67,32 @@ nav .date {
     line-height: 81.11px;
     margin-bottom: 20px;
 }
-.kino.left p{
+
+.kino.left p {
     font-size: 20px;
     width: 414px;
     height: 62px;
     line-height: 30px;
 }
+
 .kino .right {
     width: 50%;
     display: flex;
     justify-content: center;
 }
+
 .kino .right img {
     width: 304px;
     height: 356px;
 }
- .bottom {
+
+.bottom {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
+
 .bottom .items {
     border: 1px solid #1d4681;
     border-radius: 4px;
@@ -83,13 +101,15 @@ nav .date {
     padding: 20px;
     width: 450px;
 }
+
 .bottom p {
     font-family: "Roboto Slab", serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32.5px;
 }
- .bottom span {
+
+.bottom span {
     width: 100%;
     display: block;
     text-align: end;
@@ -97,16 +117,19 @@ nav .date {
     font-family: "Roboto", sans-serif;
     line-height: 26px;
 }
+
 .card-head {
-      font-size: 2.5em;
+    font-size: 2.5em;
     text-align: left;
     margin-bottom: 40px;
 }
+
 .card-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -115,7 +138,7 @@ nav .date {
     width: 90em;
 }
 
-.card {
+.cards .card {
     max-width: 399px;
     height: 18em;
     background-color: #fff;
@@ -127,14 +150,14 @@ nav .date {
     /* filter: drop-shadow(10px 0px 5px #808088); */
 }
 
-.card img {
+.cards .card img {
     width: 100%;
     height: auto;
     max-height: 150px;
     margin-bottom: 15px;
 }
 
-.card:hover {
+.cards .card:hover {
     transform: translateY(-10px);
 }
 
@@ -148,25 +171,30 @@ nav .date {
     font-family: "Roboto", sans-serif;
     font-size: 1.4em;
 }
+
 .card_span {
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
-.list_items{
+
+.list_items {
     width: 400px;
 }
-.list_items h1{
+
+.list_items h1 {
     font-size: 32px;
     margin-bottom: 30px;
 }
-.list_items ul li{
+
+.list_items ul li {
     font-family: "Roboto", sans-serif;
     list-style: disc;
     font-size: 14px;
     line-height: 21px;
     margin-left: 15px;
 }
+
 /* REVIEW-CARD */
 
 .review-card {
@@ -220,6 +248,7 @@ nav .date {
 /* ABOVE-FOOTER */
 
 .above-footer {
+    width: 100%;
     background-color: var(--above-footer);
 }
 
@@ -245,6 +274,7 @@ nav .date {
 }
 
 .above-footer-content .short-texts {
+    margin-top: 76px;
     display: flex;
     gap: 70px;
 }
@@ -257,7 +287,6 @@ nav .date {
 }
 
 .above-footer-content .short-text h3 {
-    margin-top: 76px;
     font-size: 25px;
     font-weight: 400;
 }
@@ -272,7 +301,7 @@ nav .date {
 /* FOOTER */
 
 footer {
-    height: 390px;
+    height: auto;
     background: #000;
 }
 
@@ -282,7 +311,6 @@ footer {
     padding: 50px 174px 42px 122px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0 auto;
     height: 100%;
 }
@@ -330,41 +358,54 @@ footer {
 .footer-content .lb-content {
     font-size: 18px;
     color: white;
+    margin-top: 145px;
 }
+
+
 
 @media (max-width:375px) {
     nav .date {
         font-size: 12px;
     }
+
     .kino {
         display: block;
     }
+
     .kino .left {
         width: 100%;
     }
+
     .kino .left h1 {
         font-size: 40px;
         line-height: 40px;
     }
+
     .kino .left p {
         margin-bottom: 20px;
-  }
-      .kino .right {
+    }
+
+    .kino .right {
         width: 100%;
         justify-content: flex-end;
     }
+
     .kino .right img {
         width: 142px;
         height: 175px;
     }
+
     .bottom {
         width: 300px;
         margin-top: 20px;
     }
-    .bottom p,span {
+
+    .bottom p,
+    .bottom span {
         font-size: 14px;
         line-height: 20px;
     }
+
     .cards {
         display: flex;
         flex-direction: column;
@@ -378,7 +419,7 @@ footer {
     .card {
         height: auto;
     }
-  
+
     /* REVIEW-CARD MONILE*/
 
     .review-card-content {
@@ -444,6 +485,7 @@ footer {
     }
 
     .above-footer-content .short-texts {
+        margin-top: 35px;
         gap: 30px;
     }
 
@@ -490,6 +532,10 @@ footer {
         gap: 8px;
     }
 
+    .footer-content .lt-content .social-icons img {
+        width: 15px;
+    }
+
     .footer-content .rt-content {
         gap: 10px;
         margin: 48px 0;
@@ -502,8 +548,14 @@ footer {
     .footer-content .rt-content span {
         font-size: 12px;
     }
+
+    .footer-content .lb-content {
+        font-size: 10px;
+        margin-top: 0;
+    }
 }
-@media screen and (min-width: 375px) and (max-width: 834px){
+
+@media screen and (min-width: 375px) and (max-width: 834px) {
 
     .cards {
         display: grid;
@@ -514,7 +566,7 @@ footer {
     }
 
     .card-head {
-        margin-left: 21px ;
+        margin-left: 21px;
         margin-bottom: 73px;
         font-size: 32px;
     }
@@ -526,6 +578,7 @@ footer {
     .card-para {
         font-size: 14px;
     }
+
     .card-head {
         margin: 0 auto;
         margin-bottom: 20px;
@@ -533,8 +586,9 @@ footer {
 
     .card {
         height: auto;
-    }  
-      /* REVIEW-CARD TABLET*/
+    }
+
+    /* REVIEW-CARD TABLET*/
 
     .review-card-content {
         padding: 53px 71px 64px;
@@ -605,6 +659,7 @@ footer {
     }
 
     .above-footer-content .short-text h3 {
+        margin-top: 0;
         font-size: 14px;
     }
 
@@ -616,10 +671,6 @@ footer {
 
 
     /* FOOTER TABLET*/
-
-    footer {
-        height: 225px;
-    }
 
     .footer-content {
         padding: 29px 100px 25px 71px;
@@ -656,5 +707,6 @@ footer {
 
     .footer-content .lb-content {
         font-size: 10px;
+        margin-top: 85px;
     }
 }
