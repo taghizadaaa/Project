@@ -97,78 +97,78 @@ nav .date {
   font-family: "Roboto", sans-serif;
   line-height: 26px;
 }
-.about_course .top-row{
-    display: flex;
-    align-items: flex-end;
-    margin: 91px 0;
-    justify-content: space-between;
+.about_course .top-row {
+  display: flex;
+  align-items: flex-end;
+  margin: 91px 0;
+  justify-content: space-between;
 }
 .about_course .top {
-    display: flex;
+  display: flex;
 }
 .about_course img {
-    max-width: 314px;
-    height: 315px;
-    margin: 90px 0 5px 40px;
+  max-width: 314px;
+  height: 315px;
+  margin: 90px 0 5px 40px;
 }
 .about_course .texts {
-    gap: 18px;
-    max-width: 55%;
+  gap: 18px;
+  max-width: 55%;
 }
 
 .about_course .texts h1 {
-    font-size: 55px;
-    margin-bottom: 53px;
+  font-size: 55px;
+  margin-bottom: 53px;
 }
 
 .card-head {
-    font-size: 55px;
-    text-align: left;
-    margin-bottom: 40px;
+  font-size: 55px;
+  text-align: left;
+  margin-bottom: 40px;
 }
 
 .container {
-    width: 85%;
-    margin: 0 auto;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .about_course .texts p {
-    font-size: 24px;
-    font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
 }
 
 .about_course .bottom-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1000px;
-    gap: 50px;
-    font-family: Roboto, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  gap: 50px;
+  font-family: Roboto, sans-serif;
 }
 
 .about_course .bottom-row img {
-    max-width: 232px;
-    height: 203px;
+  max-width: 232px;
+  height: 203px;
 }
 
 .about_course .short-texts {
-    display: flex;
-    max-width: 640px;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  max-width: 640px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .about_course .short-text {
-    width: 150px;
+  width: 150px;
 }
 
 .about_course .short-text h3 {
-    font-size: 25px;
-    margin-bottom: 8px;
+  font-size: 25px;
+  margin-bottom: 8px;
 }
 
 .about_course .short-text p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .card-head {
@@ -436,265 +436,182 @@ footer {
   }
   .about_course .top-row {
     display: block;
-}
+  }
 
-.about_course .texts {
+  .about_course .texts {
     max-width: 100%;
-}
-.about_course .top-row img {
+  }
+  .about_course .top-row img {
     justify-self: center;
     margin: 32px 0 0;
     width: 170px;
     height: 160px;
     position: relative;
     left: 15%;
-}
-.about_course .top {
-  display: block;
-}
-.about_course .short-texts {
+  }
+  .about_course .top {
+    display: block;
+  }
+  .about_course .short-texts {
     flex-wrap: wrap;
-}
-.about_course .short-text {
-  width: 100px;
-  margin-bottom: 20px;
-}
-.about_course .texts h1 {
+  }
+  .about_course .short-text {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  .about_course .texts h1 {
     font-size: 25px;
     margin-bottom: 24px;
-}
+  }
 
-.about_course .texts p {
+  .about_course .texts p {
     font-size: 12px;
-}
+  }
 
-.about_course .short-texts h3 {
+  .about_course .short-texts h3 {
     font-size: 12px;
-}
+  }
 
-.about_course .short-texts p {
+  .about_course .short-texts p {
     font-size: 10px;
-}
-.about_course .bottom-row img {
-  display: none;
-}
+  }
+  .about_course .bottom-row img {
+    display: none;
+  }
+
   .cards {
     display: flex;
     flex-direction: column;
-    margin: 10px;
-}
-    
-@media screen and (min-width: 375px) and (max-width: 834px){
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 21px;
-        row-gap: 26px;
-    }
-
-    .card-head {
-        margin-left: 21px ;
-        margin-bottom: 73px;
-        text-align: center;
-        font-size: 32px;
-    }
-
-    .card-h2 {
-        font-size: 17px;
-    }
-
-    .card-para {
-        font-size: 14px;
-    }
-
-    .card {
-        height: 15em; 
-        padding-bottom: 16px;
-    }
-}
-
-@media screen and (max-width:375px){
-    .cards {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card-head {
-        margin: 0 auto;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .card {
-        height: auto;
-    } 
-    
-    .card-head {
-        font-size: 26px;
-    }
-    
-}
-
-
-@media screen and (min-width: 1440px) {
-    
-    .cards {
-        grid-template-columns: repeat(4, 1fr); 
-        column-gap: 50px; 
-        row-gap: 50px;
-        width: 100%;
-    }
-
-    .card {
-        max-width: 550px; 
-        height: 24em; 
-    }
-
-    .card-h2 {
-        font-size: 2.4em; 
-    }
-
-    .card-para {
-        font-size: 1.8em; 
-    }
-
-    .card img {
-        height: 16em;
-    }
   }
 
   .card-head {
     margin: 0 auto;
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
   }
 
   .card {
     height: auto;
   }
-  .list_items h1 {
+
+  /* REVIEW-CARD MONILE*/
+
+  .review-card-content {
+    padding: 42px 36px 53px;
+  }
+
+  .review-card-content h1 {
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+
+  .review-card-content .card {
+    border-radius: 14px;
+    max-width: 308px;
+    padding: 18px 21px 13px;
+  }
+
+  .review-card-content p {
+    font-size: 10px;
+    margin-bottom: 13px;
+  }
+
+  .review-card-content .avatar {
+    width: 70px;
+  }
+
+  .review-card-content .reviewer {
+    gap: 20px;
+  }
+
+  .review-card-content .info h3 {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+
+  .review-card-content .info img {
+    width: 15px;
+  }
+
+  .review-card-content .avatar {
+    width: 30%;
+  }
+
+  /* ABOVE-FOOTER MOBILE*/
+
+  .above-footer-content {
+    padding: 62px 35px 72px;
+  }
+
+  .above-footer-content h1 {
     font-size: 26px;
   }
-  .list_items ul li {
+
+  .above-footer-content p {
     font-size: 12px;
-    line-height: 18px;
   }
-}
-/* REVIEW-CARD MONILE*/
 
-.review-card-content {
-  padding: 42px 36px 53px;
-}
+  .above-footer-content span {
+    font-size: 37px;
+  }
 
-.review-card-content h1 {
-  font-size: 26px;
-  margin-bottom: 25px;
-}
+  .above-footer-content .short-texts {
+    gap: 30px;
+  }
 
-.review-card-content .card {
-  border-radius: 14px;
-  max-width: 308px;
-  padding: 18px 21px 13px;
-}
+  .above-footer-content .short-texts h3 {
+    font-size: 12px;
+  }
 
-.review-card-content p {
-  font-size: 10px;
-  margin-bottom: 13px;
-}
+  .above-footer-content .short-texts p {
+    font-size: 10px;
+  }
 
-.review-card-content .avatar {
-  width: 70px;
-}
+  .above-footer-content .short-text {
+    max-width: 138px;
+  }
 
-.review-card-content .reviewer {
-  gap: 20px;
-}
+  /* FOOTER MOBILE*/
 
-.review-card-content .info h3 {
-  font-size: 14px;
-  margin-bottom: 14px;
-}
+  footer {
+    height: auto;
+  }
 
-.review-card-content .info img {
-  width: 15px;
-}
+  .footer-content {
+    padding: 23px 38px 18px;
+    justify-content: flex-start;
+  }
 
-.review-card-content .avatar {
-  width: 30%;
-}
+  .footer-content .top-row {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 
-/* ABOVE-FOOTER MOBILE*/
+  .footer-content .lt-content {
+    gap: 14px;
+  }
 
-.above-footer-content {
-  padding: 62px 35px 72px;
-}
+  .footer-content .lt-content .logo {
+    max-width: 54px;
+  }
 
-.above-footer-content h1 {
-  font-size: 26px;
-}
+  .footer-content .lt-content .social-icons {
+    gap: 8px;
+  }
 
-.above-footer-content p {
-  font-size: 12px;
-}
+  .footer-content .rt-content {
+    gap: 10px;
+    margin: 48px 0;
+  }
 
-.above-footer-content span {
-  font-size: 37px;
-}
+  .footer-content .rt-content img {
+    width: 13px;
+  }
 
-.above-footer-content .short-texts {
-  gap: 30px;
-}
-
-.above-footer-content .short-texts h3 {
-  font-size: 12px;
-}
-
-.above-footer-content .short-texts p {
-  font-size: 10px;
-}
-
-.above-footer-content .short-text {
-  max-width: 138px;
-}
-
-/* FOOTER MOBILE*/
-
-footer {
-  height: auto;
-}
-
-.footer-content {
-  padding: 23px 38px 18px;
-  justify-content: flex-start;
-}
-
-.footer-content .top-row {
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.footer-content .lt-content {
-  gap: 14px;
-}
-
-.footer-content .lt-content .logo {
-  max-width: 54px;
-}
-
-.footer-content .lt-content .social-icons {
-  gap: 8px;
-}
-
-.footer-content .rt-content {
-  gap: 10px;
-  margin: 48px 0;
-}
-
-.footer-content .rt-content img {
-  width: 13px;
-}
-
-.footer-content .rt-content span {
-  font-size: 12px;
+  .footer-content .rt-content span {
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 834px) {
   nav .date {
@@ -720,52 +637,85 @@ footer {
     width: 176px;
     height: 206px;
   }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 21px;
+    row-gap: 26px;
+  }
+
+  .card-head {
+    margin-left: 21px;
+    margin-bottom: 73px;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .card-h2 {
+    font-size: 17px;
+  }
+
+  .card-para {
+    font-size: 14px;
+  }
+
+  .card {
+    height: 15em;
+    padding-bottom: 16px;
+  }
+  .list_items h1 {
+    font-size: 26px;
+  }
+  .list_items ul li {
+    font-size: 12px;
+    line-height: 18px;
+  }
   .about_course .texts h1 {
     font-size: 32px;
     margin-bottom: 29px;
-}
+  }
 
-.about_course .short-text h3 {
+  .about_course .short-text h3 {
     font-size: 15px;
     margin-bottom: 4px;
-}
+  }
 
-.about_course .texts p {
+  .about_course .texts p {
     font-size: 14px;
-}
+  }
 
-.about_course .short-text p {
+  .about_course .short-text p {
     font-size: 11px;
-}
+  }
 
-.about_course .top-row img {
+  .about_course .top-row img {
     width: 182px;
     height: 182px;
-}
+  }
 
-.about_course .top-row {
+  .about_course .top-row {
     margin: 56px 0;
-}
+  }
 
-.about_course .bottom-row {
+  .about_course .bottom-row {
     justify-content: flex-start;
-}
+  }
 
-.about_course .bottom-row img {
+  .about_course .bottom-row img {
     width: 134px;
     height: 118px;
     margin: 0;
-}
+  }
 
-.about_course .short-texts {
+  .about_course .short-texts {
     max-width: 370px;
     width: 100%;
     flex-wrap: wrap;
-}
+  }
 
-.about_course .short-text {
+  .about_course .short-text {
     width: 87px;
-}
+  }
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
