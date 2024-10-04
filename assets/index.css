@@ -99,14 +99,14 @@ nav .date {
   background-color: #1d4681;
   color: #fff;
   padding: 20px;
-  width: 450px;
+  margin-left: -150px;
+  max-width: 450px;
 }
 
 .bottom p {
   font-family: "Roboto Slab", serif;
   font-size: 25px;
   font-weight: 400;
-  line-height: 32.5px;
 }
 
 .bottom span {
@@ -472,6 +472,7 @@ footer {
 
   nav .date {
     font-size: 10px;
+    margin-right: 11px;
   }
 
   .kino {
@@ -506,13 +507,20 @@ footer {
     margin-top: 20px;
   }
 
+  .bottom .items {
+    padding: 9px;
+    margin-left: 0px;
+  }
+
+
   .bottom p {
     font-size: 11px;
-    line-height: 14.3px;
   }
 
   .bottom span {
     font-size: 10px;
+    margin-top: 15px;
+    line-height: 0;
   }
 
   .about_course .top-row {
@@ -538,10 +546,10 @@ footer {
     left: 15%;
   }
 
-.about_course .texts {
-  margin-right: 0px;
+  .about_course .texts {
+    margin-right: 0px;
 
-}
+  }
 
   .about_course .top {
     display: block;
@@ -780,8 +788,9 @@ footer {
     font-size: 12px;
   }
 
-  .bottom_items {
-    width: 200px;
+  .bottom .items {
+    max-width: 280px;
+    margin-left: -40px;
   }
 
   .bottom p {
