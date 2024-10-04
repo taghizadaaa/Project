@@ -5,7 +5,6 @@
   --above-footer: #9dc9c8;
   --review-card: #efefef;
 }
-
 * {
   padding: 0;
   margin: 0;
@@ -25,7 +24,6 @@ body {
 main section {
   padding-bottom: 80px;
 }
-
 header {
   width: 100%;
   margin: 0 auto;
@@ -153,50 +151,23 @@ nav .date {
   margin-left: 30px;
 }
 
-.container {
-  width: 85%;
-  margin: 0 auto;
-}
-
-.about_course .texts p {
-  font-size: 24px;
-  font-family: Roboto, sans-serif;
-}
-
-.about_course .bottom-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1000px;
-  gap: 50px;
-  font-family: Roboto, sans-serif;
-}
-
-.about_course .bottom-row img {
-  max-width: 232px;
-  height: 203px;
-}
-
-.about_course .short-texts {
-  display: flex;
-  max-width: 640px;
-  width: 100%;
-  justify-content: space-between;
-}
-
-.about_course .short-text {
-  width: 150px;
-}
-
-.about_course .short-text h3 {
-  font-size: 25px;
-  margin-bottom: 8px;
-}
-
 .about_course .short-text p {
   font-size: 18px;
 }
-
+.format h2 {
+  font-size: 55px;
+  line-height: 56px;
+  margin-bottom: 100px;
+}
+.format .infoes {
+  display: flex;
+}
+.info .head {
+  color: #1E4681;
+  font-size: 25px;
+  line-height: 33px;
+  margin-bottom: 10px;
+}
 .card-box {
   display: flex;
   flex-wrap: wrap;
@@ -361,11 +332,12 @@ nav .date {
   font-size: 25px;
   font-weight: 400;
 }
-
-.above-footer-content .short-text p {
+.info p {
+  width: 223px;
   font-size: 18px;
+  line-height: 23px;
+  margin-right: 100px;
 }
-
 /* FOOTER */
 
 footer {
@@ -540,7 +512,27 @@ footer {
   .about_course .bottom-row img {
     display: none;
   }
-
+  .format h2 {
+    margin-bottom: 30px;
+  }
+  .format .infoes {
+    display: block;
+  }
+  .format h2 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .info .head {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 3px;
+  }
+  .info p {
+    width: 170px;
+    font-size: 10px;
+    line-height: 13px;
+    margin-bottom: 20px;
+  }
   .cards {
     display: flex;
     flex-direction: column;
@@ -629,10 +621,12 @@ footer {
 
   .above-footer-content h1 {
     font-size: 26px;
+    line-height: 26px;
   }
-
-  .above-footer-content p {
+  .info .head {
     font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 3px;
   }
 
   .above-footer-content span {
@@ -772,20 +766,7 @@ footer {
 
   .about_course .texts h1 {
     font-size: 32px;
-    margin-bottom: 29px;
-  }
-
-  .about_course .short-text h3 {
-    font-size: 15px;
-    margin-bottom: 4px;
-  }
-
-  .about_course .texts p {
-    font-size: 14px;
-  }
-
-  .about_course .short-text p {
-    font-size: 11px;
+    line-height: 33px;
   }
 
   .about_course .top-row img {
@@ -816,7 +797,20 @@ footer {
   .about_course .short-text {
     width: 87px;
   }
-
+  .format h2 {
+    font-size: 32px;
+    line-height: 33px;
+  }
+  .info .head {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .info p {
+    width: 142px;
+    margin-right: 60px;
+    font-size: 11px;
+    line-height: 14px;
+  }
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
