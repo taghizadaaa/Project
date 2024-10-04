@@ -158,6 +158,11 @@ nav .date {
   margin: 0 auto;
 }
 
+.about_course .texts {
+  max-width: 662px;
+  margin-right: 190px;
+}
+
 .about_course .texts p {
   font-size: 24px;
   font-family: Roboto, sans-serif;
@@ -181,6 +186,7 @@ nav .date {
   display: flex;
   max-width: 640px;
   width: 100%;
+  gap: 10px;
   justify-content: space-between;
 }
 
@@ -195,6 +201,29 @@ nav .date {
 
 .about_course .short-text p {
   font-size: 18px;
+}
+
+.format h2 {
+  font-size: 55px;
+  line-height: 56px;
+  margin-bottom: 100px;
+}
+
+.format .infoes {
+  display: flex;
+  justify-content: space-between;
+  max-width: 974px;
+}
+
+.format .info {
+  max-width: 223px;
+}
+
+.info .head {
+  color: #1E4681;
+  font-size: 25px;
+  line-height: 33px;
+  margin: 10px 0;
 }
 
 .card-box {
@@ -454,7 +483,7 @@ footer {
   }
 
   .kino .left h1 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 40px;
   }
 
@@ -473,7 +502,7 @@ footer {
   }
 
   .bottom {
-    width: 226px;
+    max-width: 226px;
     margin-top: 20px;
   }
 
@@ -501,11 +530,18 @@ footer {
   .about_course .top-row img {
     justify-self: center;
     margin: 32px 0 0;
-    width: 170px;
-    height: 160px;
+    width: 70%;
+    object-fit: contain;
+    max-width: 170px;
+    max-height: 160px;
     position: relative;
     left: 15%;
   }
+
+.about_course .texts {
+  margin-right: 0px;
+
+}
 
   .about_course .top {
     display: block;
@@ -539,6 +575,29 @@ footer {
 
   .about_course .bottom-row img {
     display: none;
+  }
+
+  .format h2 {
+    font-size: 26px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+
+  .info .head {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 3px;
+  }
+
+  .infoes {
+    flex-wrap: wrap;
+  }
+
+  .info p {
+    width: 170px;
+    font-size: 10px;
+    line-height: 13px;
+    margin-bottom: 20px;
   }
 
   .cards {
@@ -736,6 +795,8 @@ footer {
   .kino .right img {
     max-width: 176px;
     max-height: 206px;
+    width: 80%;
+    object-fit: contain;
   }
 
   /*    .cards {
@@ -769,6 +830,11 @@ footer {
     font-size: 12px;
     line-height: 18px;
   } */
+
+  .about_course .texts {
+    max-width: 380px;
+    margin-right: 50px;
+  }
 
   .about_course .texts h1 {
     font-size: 32px;
@@ -817,13 +883,38 @@ footer {
     width: 87px;
   }
 
+  .format h2 {
+    font-size: 32px;
+    line-height: 33px;
+    margin-bottom: 70px;
+  }
+
+  .infoes {
+    flex-wrap: wrap;
+  }
+
+  .infoes .info {
+    max-width: 170px;
+  }
+
+  .info .head {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .info p {
+    width: 142px;
+    margin-right: 60px;
+    font-size: 11px;
+    line-height: 14px;
+  }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* max-width: 231px; */
     column-gap: 21px;
     row-gap: 26px;
-    padding: 0 49px;
   }
 
   .card-h2 {
